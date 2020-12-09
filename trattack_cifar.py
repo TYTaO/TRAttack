@@ -71,7 +71,6 @@ elif args.norm == 8:
     print('\nPerforming TR Linf Attack')
 else:
     print('\nError! Incorrect option passed for norm')
-    return
 ######## begin attack
 stat_time = time.time()
 num_d = 10000 
